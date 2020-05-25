@@ -1,4 +1,5 @@
 FROM node:14.0.0-alpine
+ENV CI=true
 WORKDIR /app
 EXPOSE 3000
 
